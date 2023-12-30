@@ -38,13 +38,13 @@ Now, we will create a admin account to log in admin site of Django by the comman
 This account allows you log in Admin site
 
 
+![image](https://github.com/ThuNganPythonista/User-System-Model-Django/blob/main/Screenshot%202023-12-30%20at%204.29.25%20PM.png)
 
 
+**c)Define views.py to return the result when user logs in :**
 
-Define views.py to return the result when user logs in :
 
-
-Now we will write a function in views.py to define the simplest login form, it only returns a message 'login successful' or 'login failed'
+Now we will write a function in views.py to define the simplest login form, it only returns a message **'login successful'** or **'login failed'**
 
 
 
