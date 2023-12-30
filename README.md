@@ -46,22 +46,27 @@ This account allows you log in Admin site
 
 Now we will write a function in views.py to define the simplest login form, it only returns a message **'login successful'** or **'login failed'**
 
-
+![image](https://github.com/ThuNganPythonista/User-System-Model-Django/blob/main/Screenshot%202023-12-30%20at%204.32.35%20PM.png)
 
 
 With GET and POST method, I have explained on my Github repo :
 
-https://github.com/ThuNganPythonista/Django-Hades 
+[https://github.com/ThuNganPythonista/Django-Hades](https://github.com/ThuNganPythonista/Django-Hades)
+
 (my own complete Django web)
 
+The first one, **GET method**, when users click to the register button, for instance, it returns the register template (HTML). This is because the GET method will take data from the server.
+ 
+ The second one, **POST method**, when users have already filled in their information and press the button register, that information will be sent to the database. This is because the POST method will handle a request sent to the server.
+ 
+=> `class Login (View)` inherits View from Django's views module.
 
-The first one, GET method, when users click to the register button, for instance, it returns the register template (HTML). This is because the GET method will take data from the server.
-The second one, POST method, when users have already filled in their information and press the button register, that information will be sent to the database. This is because the POST method will handle a request sent to the server.
-=> class Login (View) class inherits View from Django's views module.
-def get(self,request) it calls the method GET to handle HTTP. 
-self indicates that this is the instance of the class. Other languages do not require "this" or "self", but Python requires. 
+`def get(self,request)`it calls the method GET to handle HTTP. 
+
+`self` indicates that this is the instance of the class. Other languages do not require "this" or "self", but Python requires. 
 request,a module of Python, holds HTTP request data, so you can find more detail in Python lessons.
- return render(request=request, template_name="success.html") it renders an HTML template user/success.html and returns it as an HTTP response.
+
+` return render(request=request, template_name="success.html")` it renders an HTML template `user/success.html` and returns it as an HTTP response.
 
 `username ` and `password` will use POST method, and the information will be verified by `authenticate` function
 `if my_user is None : ` If it can not authenticate `username` and `password`
