@@ -12,9 +12,9 @@ Django is a back-end framework written in the Python programming language. The f
  
 The authentication system in Django will, by default, include all user accounts, including admin and all user accounts. Each account can have different permissions. For example, in a healthcare service, the first user account may manage all user accounts registered for vaccinations, the second user account may manage new patient accounts, and so on.
 
+![image](https://github.com/ThuNganPythonista/User-System-Model-Django/blob/main/Screenshot%202023-12-30%20at%204.02.18%20PM.png)
 
-
- Project Structure :
+ #### *a) Project Structure :* ####
 
 We are learning Django at the beginning and already know how to create a project and create an app within the project. Below, I will give an example of login functionality within an  'user'  app to illustrate for everyone.
 
