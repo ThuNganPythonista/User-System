@@ -20,18 +20,18 @@ We are learning Django at the beginning and already know how to create a project
 
 First, make sure your project structure looks like this :
 
+![image](https://github.com/ThuNganPythonista/User-System-Model-Django/blob/main/Screenshot%202023-12-30%20at%204.19.34%20PM.png)
+
+#### b)Authenticate and create accounts on admin site : ####
 
 
-Authenticate and create accounts on admin site :
+Next, we will import **`authenticate`** from the django module to verify user accounts’ information. This function will consider whether **`username`** and **`password`** is valid or not :
 
-
-Next, we will import `authenticate` from the django module to verify user accounts’ information. This function will consider whether `username` and `password` is valid or not :
-
-`from django.contrib.auth import authenticate`
+**`from django.contrib.auth import authenticate`**
 
 Now, we will create a admin account to log in admin site of Django by the command :
 
-`python3 manage.py createsuperuser`
+**`python3 manage.py createsuperuser`**
 
 
 
