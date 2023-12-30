@@ -16,7 +16,7 @@ The authentication system in Django will, by default, include all user accounts,
 
  #### *a) Project Structure :* ####
 
-We are learning Django at the beginning and already know how to create a project and create an app within the project. Below, I will give an example of login functionality within an  'user'  app to illustrate for everyone.
+We are learning Django at the beginning and already know how to create a project and create an app within the project. Below, I will give **an example of login functionality within an  'user'  app** to illustrate for everyone.
 
 First, make sure your project structure looks like this :
 
