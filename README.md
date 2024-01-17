@@ -5,7 +5,7 @@
 
 PLEASE DOWNLOAD PDF FILE HERE : [https://code-lofi.vercel.app/?fname=](https://code-lofi.vercel.app/?fname=)
 
-It write in PDF file that fully detailed 
+It write in PDF file that fully detailed in comparison with README file here
  
 
 ### Introduction :
