@@ -209,15 +209,7 @@ This is our result :
 
 Yes, we have successfully added new fields to our database : gender, age and address 
 
-Other lessons :
-+ User System And Custom User Models In Django: https://docs.google.com/document/d/16xz23zC0bmDl8Ar24rBtSJKoTDEWhCk9TOL_4a_Nfro/edit?usp=sharing
-+ Apps Feature In Django Framework : https://www.facebook.com/groups/devoiminhdidauthe/permalink/23968231386153907/ 
-        	+ GIT : https://github.com/ThuNganPythonista/GIT
-        	+ AbstractUser & AbtractBaseUser: https://github.com/ThuNganPythonista/Django-AuthenticationSystem-Tutorial
-          	+ Run DMOJ (open source-code) by MacOs (mapping between linux and macos): https://docs.google.com/document/d/1B3F-6FFDeXeV2ra5d1sLhV1nA_Mr_SlyJpRkIWOQNaw/edit?usp=sharing
-        	+ Explain instructions setting DMOJ (this one I write for my organization) : https://docs.google.com/document/d/1xlKEmaXDh0TEMaNMXHijv4FMajxsY4zBUbfLdRflMNc/edit
-	+ Build e-commerce Django web : https://github.com/ThuNganPythonista/Django-Hades
-	+ Some videos on CodeLofi : https://github.com/ThuNganPythonista/Code-Lofi
+
 
 
 
